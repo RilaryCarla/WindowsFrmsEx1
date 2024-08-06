@@ -31,16 +31,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtRenda = new System.Windows.Forms.TextBox();
             this.grbGastos = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtEnergia = new System.Windows.Forms.TextBox();
-            this.txtAgua = new System.Windows.Forms.TextBox();
-            this.txtTV = new System.Windows.Forms.TextBox();
-            this.txtAlimentacao = new System.Windows.Forms.TextBox();
             this.txtOutros = new System.Windows.Forms.TextBox();
+            this.txtAlimentacao = new System.Windows.Forms.TextBox();
+            this.txtTV = new System.Windows.Forms.TextBox();
+            this.txtAgua = new System.Windows.Forms.TextBox();
+            this.txtEnergia = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
@@ -48,6 +48,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.lblGastos = new System.Windows.Forms.Label();
             this.lblSaldo = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.grbGastos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,41 +92,40 @@
             this.grbGastos.Text = "Gastos:";
             this.grbGastos.Enter += new System.EventHandler(this.grbGastos_Enter);
             // 
-            // label2
+            // txtOutros
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Energia Elétrica:";
+            this.txtOutros.Location = new System.Drawing.Point(152, 235);
+            this.txtOutros.Name = "txtOutros";
+            this.txtOutros.Size = new System.Drawing.Size(326, 22);
+            this.txtOutros.TabIndex = 9;
             // 
-            // label3
+            // txtAlimentacao
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 89);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 16);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Água:";
+            this.txtAlimentacao.Location = new System.Drawing.Point(152, 183);
+            this.txtAlimentacao.Name = "txtAlimentacao";
+            this.txtAlimentacao.Size = new System.Drawing.Size(326, 22);
+            this.txtAlimentacao.TabIndex = 8;
             // 
-            // label4
+            // txtTV
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 136);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 16);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "TV / Fone / Internet:";
+            this.txtTV.Location = new System.Drawing.Point(152, 136);
+            this.txtTV.Name = "txtTV";
+            this.txtTV.Size = new System.Drawing.Size(326, 22);
+            this.txtTV.TabIndex = 7;
             // 
-            // label5
+            // txtAgua
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(21, 188);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 16);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Alimentação:";
+            this.txtAgua.Location = new System.Drawing.Point(152, 89);
+            this.txtAgua.Name = "txtAgua";
+            this.txtAgua.Size = new System.Drawing.Size(326, 22);
+            this.txtAgua.TabIndex = 6;
+            // 
+            // txtEnergia
+            // 
+            this.txtEnergia.Location = new System.Drawing.Point(152, 42);
+            this.txtEnergia.Name = "txtEnergia";
+            this.txtEnergia.Size = new System.Drawing.Size(326, 22);
+            this.txtEnergia.TabIndex = 5;
             // 
             // label6
             // 
@@ -136,40 +136,41 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Outros Gastos:";
             // 
-            // txtEnergia
+            // label5
             // 
-            this.txtEnergia.Location = new System.Drawing.Point(152, 42);
-            this.txtEnergia.Name = "txtEnergia";
-            this.txtEnergia.Size = new System.Drawing.Size(326, 22);
-            this.txtEnergia.TabIndex = 5;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 188);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(85, 16);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Alimentação:";
             // 
-            // txtAgua
+            // label4
             // 
-            this.txtAgua.Location = new System.Drawing.Point(152, 89);
-            this.txtAgua.Name = "txtAgua";
-            this.txtAgua.Size = new System.Drawing.Size(326, 22);
-            this.txtAgua.TabIndex = 6;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(21, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(122, 16);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "TV / Fone / Internet:";
             // 
-            // txtTV
+            // label3
             // 
-            this.txtTV.Location = new System.Drawing.Point(152, 136);
-            this.txtTV.Name = "txtTV";
-            this.txtTV.Size = new System.Drawing.Size(326, 22);
-            this.txtTV.TabIndex = 7;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(21, 89);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 16);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Água:";
             // 
-            // txtAlimentacao
+            // label2
             // 
-            this.txtAlimentacao.Location = new System.Drawing.Point(152, 183);
-            this.txtAlimentacao.Name = "txtAlimentacao";
-            this.txtAlimentacao.Size = new System.Drawing.Size(326, 22);
-            this.txtAlimentacao.TabIndex = 8;
-            // 
-            // txtOutros
-            // 
-            this.txtOutros.Location = new System.Drawing.Point(152, 235);
-            this.txtOutros.Name = "txtOutros";
-            this.txtOutros.Size = new System.Drawing.Size(326, 22);
-            this.txtOutros.TabIndex = 9;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 16);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Energia Elétrica:";
             // 
             // btnCalcular
             // 
@@ -180,6 +181,7 @@
             this.btnCalcular.TabIndex = 3;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // btnLimpar
             // 
@@ -190,6 +192,7 @@
             this.btnLimpar.TabIndex = 4;
             this.btnLimpar.Text = "Novo Calculo";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnFechar
             // 
@@ -200,6 +203,7 @@
             this.btnFechar.TabIndex = 5;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // label7
             // 
@@ -239,11 +243,21 @@
             this.lblSaldo.Size = new System.Drawing.Size(0, 20);
             this.lblSaldo.TabIndex = 9;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(185, 539);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(0, 13);
+            this.label9.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(568, 679);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.lblSaldo);
             this.Controls.Add(this.lblGastos);
             this.Controls.Add(this.label8);
@@ -286,6 +300,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lblGastos;
         private System.Windows.Forms.Label lblSaldo;
+        private System.Windows.Forms.Label label9;
     }
 }
 
